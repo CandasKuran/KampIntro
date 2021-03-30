@@ -30,5 +30,15 @@ namespace GenericsIntro
 
             items[items.Length - 1] = item;  //burda ise items.Lenght-1(listenin son elemani) item a esitleyerek sonuncu indexe yeni item i ekliyoruz.
         }
+
+        public int Length
+        {
+            get { return items.Length; }
+        }
+
+        public T[] Items
+        {
+            get { return items; }
+        }
     }
 }
